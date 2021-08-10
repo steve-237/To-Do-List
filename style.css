@@ -1,0 +1,106 @@
+body, html{
+	margin: 0;
+	padding: 0;
+}
+
+.container{
+	height: 500px;
+	width: 400px;
+	box-shadow: 5px 5px 15px lightgray;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%,-50%);
+	text-align: center;
+	font-family: sans-serif, verdana;
+	border: 1px solid lightgray;
+}
+
+button{
+	border: none;
+	background-color: skyblue;
+	color: white;
+	/*font-size: 1em;*/
+	padding: 8px;
+	cursor: pointer;
+	border-radius: 5px;
+}
+
+button:active{
+	transform: scale(1.1);
+}
+
+input{
+	width: 280px;
+	height: 20px;
+	border-color: skyblue;
+	border: none;
+	padding: 5px;
+	/*border-radius: 5px;*/
+	border: 1px solid lightgray;
+}
+
+input::placeholder{
+	color: lightgray;
+}
+
+input:focus{
+	border: none;
+	outline: none;
+	/*border: 1px solid lightgray;*/
+	/*border-radius: 5px;*/
+	border-bottom: 2px solid skyblue;
+	transition: border-bottom 2s;
+}
+
+.list{
+	margin-top: 15px;
+}
+
+.element{
+	/*display: none;*/
+	list-style: none;
+	height: 35px;
+	width: 90%;
+	margin: 10px auto;
+	border-radius: 5px;
+	color: black;
+	box-shadow: 2px 2px 10px lightgray;
+	cursor: pointer;
+	box-sizing: border-box;
+	overflow: hidden;
+	padding: 5px 2px 2px 2px;
+}
+
+li:hover{
+	background-color: lightgray;
+	height: 35px;
+	width: 90%;
+	margin: 10px auto;
+	border-radius: 5px;
+	box-shadow: 2px 2px 10px lightgray;
+}
+
+ul li.clicked {
+  background: gray;
+  color: white;
+  text-decoration: line-through;
+}
+
+/*li{
+	list-style: none;
+	height: 40px;
+	width: 90%;
+	margin: 10px auto;
+	border-radius: 5px;
+	box-shadow: 2px 2px 10px lightgray;
+}*/
+
+ul{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	overflow-y: scroll;
+	overflow-x: hidden;
+	height: 350px;
+}
