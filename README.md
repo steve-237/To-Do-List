@@ -1,4 +1,6 @@
 # To-Do List App
+![TODO-App](https://github.com/user-attachments/assets/e65a815b-146e-4ef2-bac2-7e2530ead904)
+
 
 ## About
 This is a simple To-Do List application built using HTML, CSS, and JavaScript. It allows users to add tasks dynamically and mark them as completed by clicking on them.
